@@ -6,6 +6,6 @@ world = pd.read_csv(
     "wdi_small_tidy_2015.csv"
 )
 world = world.plot.scatter(
-    "Mortality rate, infant (per 1,000 live births)",
+    "Mortality rate,infant (per 1,000 live births)",
     "GDP per capita (constant 2010 US$)",
 )
